@@ -1,6 +1,8 @@
 from rest_framework import serializers
 
 from .models import Genre
+from .models import Actor
+from .models import Keyword
 from .models import Movie
 # from .models import Tournament
 
@@ -16,7 +18,17 @@ class GenreSerializerId(serializers.ModelSerializer): # 데이터 넣을 때
         model = Genre
         fields = ('id', )
 
+class ActorSerializer(serializers.ModelSerializer):
 
+    class Meta : 
+        model = Actor
+        fields = "__all__"
+
+class KeywordSerializer(serializers.ModelSerializer):
+
+    class Meta : 
+        model = Keyword
+        fields = "__all__"
 
 class MovieSerializer(serializers.ModelSerializer): # 데이터 넣을 때
    
@@ -26,6 +38,7 @@ class MovieSerializer(serializers.ModelSerializer): # 데이터 넣을 때
 
 class MovieDetailSerializer(serializers.ModelSerializer): # 영화상세
     genres = GenreSerializer(many=True, read_only=True)
+    actor_ids = ActorSerializer(many=True, read_only=True)
 
     class Meta : 
         model = Movie

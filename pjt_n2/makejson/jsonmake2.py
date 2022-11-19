@@ -17,12 +17,31 @@ def get_movie_Data() :
             data["model"] = "movies.movie"
             movie_key = movie["id"]
             fields = {}
-            fields["popularity"] = movie["popularity"]
-            fields["overview"] = movie["overview"]
             fields["title"] = movie["title"]
-            fields["release_date"] = movie["release_date"]
-            fields["vote_average"] = movie["vote_average"]
+            fields["overview"] = movie["overview"]
             fields["genre_ids"] = movie["genre_ids"]
+            fields["release_date"] = movie["release_date"]
+            fields["popularity"] = movie["popularity"]
+            fields["vote_average"] = movie["vote_average"]
+            # 배우 정보 가져오기
+            request_credits = f"https://api.themoviedb.org/3/movie/{movie_key}/credits?api_key={TMDB_API_KEY}&append_to_response=videos&language=ko"
+            credits = requests.get(request_credits).json()
+            actors = []
+            for i in range(5):
+                # actors.append(credits["cast"][i]["id"])
+                actor_data = {}
+                actor_data["pk"] = credits["cast"][i]["id"]
+                actor_data["model"] = "movies.actor"
+                # 배우 사진 주소를 넣기
+                photo = credits["cast"][i]["profile_path"]
+                profile_paths = f"https://image.tmdb.org/t/p/original{photo}"
+                actor_data["fields"] = {
+                    "name" : credits["cast"][i]["name"],
+                    "profile_path" : profile_paths,
+                }
+                actors.append(actor_data)
+            fields["actors"] = actors
+
             fields["poster_path"] = movie["poster_path"]
             # video_path 가져오기
             request_videos = f"https://api.themoviedb.org/3/movie/{movie_key}/videos?api_key={TMDB_API_KEY}&append_to_response=videos&language=ko"
@@ -46,5 +65,5 @@ def get_movie_Data() :
             
     return result
 
-with open('../makejson/movie_list.json', 'w', encoding="UTF-8") as f :
+with open('../makejson/221119_movie_list.json', 'w', encoding="UTF-8") as f :
     json.dump(get_movie_Data(), f, ensure_ascii=False, indent=2)
