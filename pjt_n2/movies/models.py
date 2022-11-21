@@ -1,5 +1,6 @@
 from django.db import models
 from django.conf import settings
+# from django.core.validators import MaxValueValidator, MinValueValidator
 
 # Create your models here.
 class Actor(models.Model):
@@ -40,11 +41,11 @@ class Movie(models.Model):
     video_path = models.CharField(max_length=200)
 
 
-class Review(models.Model):
-    title = models.CharField(max_length=20)
-    content = models.CharField(max_length=200)
-    movie = models.ForeignKey(Movie, on_delete=models.CASCADE, related_name="reviews")
-    reviewed_user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="reviews")
+#class Review(models.Model):
+#    title = models.CharField(max_length=20)
+#    content = models.CharField(max_length=200)
+#    movie = models.ForeignKey(Movie, on_delete=models.CASCADE, related_name="reviews")
+#    reviewed_user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="reviews")
 
 
 #class WatchedMovie(models.Model):

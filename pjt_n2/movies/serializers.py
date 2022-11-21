@@ -16,7 +16,7 @@ class GenreSerializerId(serializers.ModelSerializer): # 데이터 넣을 때
 
     class Meta : 
         model = Genre
-        fields = ('id', )
+        fields = ('pk', )
 
 class ActorSerializer(serializers.ModelSerializer):
 
@@ -34,11 +34,12 @@ class MovieSerializer(serializers.ModelSerializer): # 데이터 넣을 때
    
     class Meta : 
         model = Movie
-        fields="__all__"
+        fields = ('id', 'title', 'overview', 'poster_path', 'vote_average')
+        # fields="__all__"
 
 class MovieDetailSerializer(serializers.ModelSerializer): # 영화상세
     genres = GenreSerializer(many=True, read_only=True)
-    actor_ids = ActorSerializer(many=True, read_only=True)
+    actors = ActorSerializer(many=True, read_only=True)
     keywords = KeywordSerializer(many=True, read_only=True)
 
     class Meta : 

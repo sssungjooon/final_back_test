@@ -8,7 +8,7 @@ class Review(models.Model):
     like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_reviews')
     # funny_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='funny_reviews')
     # helpful_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='helpful_reviews')
-    movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
+    # movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
     
     title = models.CharField(max_length=100)
     liked = models.BooleanField()
