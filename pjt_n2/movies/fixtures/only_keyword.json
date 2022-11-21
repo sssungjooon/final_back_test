@@ -1,0 +1,392 @@
+[{
+    "keyword_id": 952,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "lightning"
+    }
+  },
+  {
+    "keyword_id": 2095,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "anti hero"
+    }
+  },
+  {
+    "keyword_id": 9715,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "superhero"
+    }
+  },
+  {
+    "keyword_id": 9717,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "based on comic"
+    }
+  },
+  {
+    "keyword_id": 15001,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "demon"
+    }
+  },
+  {
+    "keyword_id": 155030,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "superhero team"
+    }
+  },
+  {
+    "keyword_id": 179431,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "duringcreditsstinger"
+    }
+  },
+  {
+    "keyword_id": 229266,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "dc extended universe"
+    }
+  },
+  {
+    "keyword_id": 236,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "suicide"
+    }
+  },
+  {
+    "keyword_id": 703,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "detective"
+    }
+  },
+  {
+    "keyword_id": 2340,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "paranoia"
+    }
+  },
+  {
+    "keyword_id": 2726,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "therapist"
+    }
+  },
+  {
+    "keyword_id": 2754,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "trauma"
+    }
+  },
+  {
+    "keyword_id": 10541,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "curse"
+    }
+  },
+  {
+    "keyword_id": 11612,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "hospital"
+    }
+  },
+  {
+    "keyword_id": 13005,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "doctor"
+    }
+  },
+  {
+    "keyword_id": 41329,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "mental illness"
+    }
+  },
+  {
+    "keyword_id": 156075,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "evil"
+    }
+  },
+  {
+    "keyword_id": 157701,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "psychotic"
+    }
+  },
+  {
+    "keyword_id": 241827,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "demonic"
+    }
+  },
+  {
+    "keyword_id": 268132,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "based on short film"
+    }
+  },
+  {
+    "keyword_id": 278807,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "ptsd"
+    }
+  },
+  {
+    "keyword_id": 1701,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "hero"
+    }
+  },
+  {
+    "keyword_id": 9663,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "sequel"
+    }
+  },
+  {
+    "keyword_id": 9715,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "superhero"
+    }
+  },
+  {
+    "keyword_id": 9717,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "based on comic"
+    }
+  },
+  {
+    "keyword_id": 179431,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "duringcreditsstinger"
+    }
+  },
+  {
+    "keyword_id": 180059,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "death of king"
+    }
+  },
+  {
+    "keyword_id": 180547,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "marvel cinematic universe (mcu)"
+    }
+  },
+  {
+    "keyword_id": 195394,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "hidden civilization"
+    }
+  },
+  {
+    "keyword_id": 703,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "detective"
+    }
+  },
+  {
+    "keyword_id": 8250,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "victorian england"
+    }
+  },
+  {
+    "keyword_id": 9663,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "sequel"
+    }
+  },
+  {
+    "keyword_id": 160342,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "female detective"
+    }
+  },
+  {
+    "keyword_id": 273879,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "sherlock holmes"
+    }
+  },
+  {
+    "keyword_id": 209439,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "sport climbing"
+    }
+  },
+  {
+    "keyword_id": 818,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "based on novel or book"
+    }
+  },
+  {
+    "keyword_id": 2504,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "world war i"
+    }
+  },
+  {
+    "keyword_id": 11117,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "tank"
+    }
+  },
+  {
+    "keyword_id": 14643,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "battle"
+    }
+  },
+  {
+    "keyword_id": 15060,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "period drama"
+    }
+  },
+  {
+    "keyword_id": 191004,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "german soldier"
+    }
+  },
+  {
+    "keyword_id": 210184,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "1910s"
+    }
+  },
+  {
+    "keyword_id": 230333,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "aircraft"
+    }
+  },
+  {
+    "keyword_id": 6259,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "psychopath"
+    }
+  },
+  {
+    "keyword_id": 6625,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "family secrets"
+    }
+  },
+  {
+    "keyword_id": 9675,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "prequel"
+    }
+  },
+  {
+    "keyword_id": 9826,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "murder"
+    }
+  },
+  {
+    "keyword_id": 11062,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "impersonator"
+    }
+  },
+  {
+    "keyword_id": 18409,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "mental patient"
+    }
+  },
+  {
+    "keyword_id": 161814,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "psycho killer"
+    }
+  },
+  {
+    "keyword_id": 173298,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "escaped mental patient"
+    }
+  },
+  {
+    "keyword_id": 197430,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "missing daughter"
+    }
+  },
+  {
+    "keyword_id": 210544,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "estonia"
+    }
+  },
+  {
+    "keyword_id": 227855,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "female psychopath"
+    }
+  },
+  {
+    "keyword_id": 193048,
+    "model": "movies.keyword",
+    "fields": {
+      "name": "christmas spirit"
+    }
+  }]
